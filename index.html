@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTRA 2025 - DON BOSCO COLLEGE MAMPETTA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">ASTRA</div>
+            <div class="college-name">DON BOSCO COLLEGE MAMPETTA</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#register">Register</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to ASTRA 2025</h2>
+            <p>Join us for an unforgettable experience filled with fun, creativity, and competition!</p>
+            <a href="#register" class="btn">Register Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About ASTRA Fest</h2>
+            <p>ASTRA Fest is the annual cultural and technical fest of DON BOSCO COLLEGE MAMPETTA. It brings together students from all over the country to showcase their talents and compete in various events.</p>
+        </div>
+    </section>
+
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Events</h2>
+            <div class="event-grid">
+                <div class="event-card">
+                    <h3>1. Elite Walk</h3>
+                    <p><strong>Prizes:</strong> 1st - ₹3000, 2nd - ₹2000, 3rd - ₹1000</p>
+                    <button class="register-btn" onclick="registerEvent('Elite Walk')">Register Now</button>
+                </div>
+                <div class="event-card">
+                    <h3>2. Brand Brush (Face Painting)</h3>
+                    <p><strong>Prizes:</strong> 1st - ₹3000, 2nd - ₹2000, 3rd - ₹1000</p>
+                    <button class="register-btn" onclick="registerEvent('Brand Brush')">Register Now</button>
+                </div>
+                <div class="event-card">
+                    <h3>3. Stand Up Comedy</h3>
+                    <p><strong>Prizes:</strong> 1st - ₹3000, 2nd - ₹2000, 3rd - ₹1000</p>
+                    <button class="register-btn" onclick="registerEvent('Stand Up Comedy')">Register Now</button>
+                </div>
+                <div class="event-card">
+                    <h3>4. Reels Making</h3>
+                    <p><strong>Prizes:</strong> 1st - ₹3000, 2nd - ₹2000, 3rd - ₹1000</p>
+                    <button class="register-btn" onclick="registerEvent('Reels Making')">Register Now</button>
+                </div>
+                <div class="event-card">
+                    <h3>5. Photography</h3>
+                    <p><strong>Prizes:</strong> 1st - ₹3000, 2nd - ₹2000, 3rd - ₹1000</p>
+                    <button class="register-btn" onclick="registerEvent('Photography')">Register Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="register">
+        <div class="container">
+            <h2>Register Now</h2>
+            <form id="registration-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <select id="event" name="event" required>
+                    <option value="">Select Event</option>
+                    <option value="Elite Walk">Elite Walk</option>
+                    <option value="Brand Brush">Brand Brush</option>
+                    <option value="Stand Up Comedy">Stand Up Comedy</option>
+                    <option value="Reels Making">Reels Making</option>
+                    <option value="Photography">Photography</option>
+                </select>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Reach out to us at <a href="mailto:astra@college.com">astra@college.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ASTRA Fest. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
